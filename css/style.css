@@ -12,7 +12,8 @@ body{
 .navbar{
   width:100%;
   height:10%;
-  background-color:yellow;
+  display:flex;
+  background-color:mintcream;
 }
 
 .navbar .logo{
@@ -20,6 +21,45 @@ body{
   height:100%;
 }
 .navbar .logo a{
-  
+  width:100%;
+  height:100%;
 }
+.navbar .logo a img{
+  width:auto;
+  height:auto;
+}
+
+.navbar .menu{
+  width:75%;
+  haight:10%;
+  background-color:azure;
+}
+.navbar .menu .menubar{
+  height:100%;
+  width:100%;
+}
+.navbar .menu .menubar ul{
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.navbar .menu .menubar ul li{
+  list-style:none;
+  height:100%;
+  position:relative;
+}
+.navbar .menu .menubar ul li a{
+  text-decoration:none;
+  color:red;
+}
+
+
+
+
+
+
+
+
 
