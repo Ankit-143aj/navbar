@@ -68,7 +68,8 @@
   display:block;
   position:absolute;
   flex-direction:column; 
-  min-width:25%;
+  max-width:25%;
+  height:40%;
   background-color: pink;
   top:100%;
 }
