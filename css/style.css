@@ -45,17 +45,19 @@ body{
   height:100%;
   width:100%;
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .navbar .menu .menubar ul li{
   list-style:none;
   height:100%;
   position:relative;
+  display:flex;
   align-items:center;
 }
 .navbar .menu .menubar ul li a{
   text-decoration:none;
   color:red;
+  font-size:10px;
 }
 
 
