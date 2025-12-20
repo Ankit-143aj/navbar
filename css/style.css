@@ -68,6 +68,11 @@
   min-width:20%;
   background-color:mintgreen;
   top:100%;
+  display:none;
+}
+
+.navbar .menu .menubar ul li a hover: .submenu{
+  display:block;
 }
 
 .navbar .menu .menubar ul li .submenu li{
