@@ -71,7 +71,7 @@
   display:none;
 }
 
-.navbar .menu .menubar ul li a hover: .submenu{
+.navbar .menu .menubar ul li a:hover .submenu{
   display:block;
 }
 
