@@ -75,6 +75,7 @@
   top:100%;
   left:50%;
   transform:translateX(-50%);
+  box-shadow:outset(2% 5% 2% gray);
 }
 
 .navbar .menu .menubar ul li .submenu li a{
