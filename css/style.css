@@ -4,7 +4,6 @@
   font-family:monospace;
 }
 
-
 .navbar{
   width:100%;
   height:10%;
@@ -16,6 +15,7 @@
   width:25%;
   height:100%;
 }
+
 .navbar .logo a{
   width:100%;
   height:100%;
@@ -23,6 +23,7 @@
   display:flex;
   justify-content:center;
 }
+
 .navbar .logo a img{
   width:auto;
   height:auto;
@@ -33,16 +34,19 @@
   haight:10%;
   background-color:azure;
 }
+
 .navbar .menu .menubar{
   height:100%;
   width:100%;
 }
+
 .navbar .menu .menubar ul{
   height:100%;
   width:100%;
   display:flex;
   justify-content:space-around;
 }
+
 .navbar .menu .menubar ul li{
   list-style:none;
   height:100%;
@@ -50,11 +54,19 @@
   display:flex;
   align-items:center;
 }
+
 .navbar .menu .menubar ul li a{
   text-decoration:none;
   color:red;
   padding:5px;
   font-size:1.5vw;
+}
+
+.navbar .menu .menubar ul li .submenu{
+  position:absolute;
+  flex-direction:column; 
+  min-width:20%;
+  background-color:snow;
 }
 
 
