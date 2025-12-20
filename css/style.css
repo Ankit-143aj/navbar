@@ -66,11 +66,18 @@
   position:absolute;
   flex-direction:column; 
   min-width:20%;
-  background-color:snow;
+  background-color:mintcream;
   top:100%;
 }
 
+.navbar .menu .menubar ul li .submenu li{
+  margin-left:2%;
+  padding-top:5%;
+}
 
+.navbar .menu .menubar ul li .submenu li a{
+  color:darkred;
+}
 
 
 
