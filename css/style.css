@@ -61,18 +61,16 @@
   padding:5px;
   font-size:1.5vw;
 }
-
 .navbar .menu .menubar ul li .submenu{
-  position:absolute;
-  flex-direction:column; 
-  min-width:20%;
-  background-color: pink;
-  top:100%;
   display:none;
 }
-
-.navbar .menu .menubar ul li a:hover .submenu{
+.navbar .menu .menubar ul li:hover .submenu{
   display:block;
+  position:absolute;
+  flex-direction:column; 
+  min-width:25%;
+  background-color: pink;
+  top:100%;
 }
 
 .navbar .menu .menubar ul li .submenu li{
