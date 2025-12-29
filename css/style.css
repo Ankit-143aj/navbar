@@ -62,6 +62,11 @@
   padding:5px;
   font-size:1.5vw;
 }
+
+.navbar .menu .menubar ul .underline_current > a{
+  text-decoration:underline red;  
+}
+
 .navbar .menu .menubar ul li .submenu{
   display:none;
 }
