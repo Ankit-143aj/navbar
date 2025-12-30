@@ -99,6 +99,11 @@
   height:100%;
 }
 
+ .menu{
+   height:0;
+   width:0;
+ }
+
   .mobilebar{
     width:20%;
     height:100%;
