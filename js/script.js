@@ -15,7 +15,7 @@ fetch("navbar.html")
     let linkPage = link.getAttribute("href");
 
     if(linkPage == currentPage){
-      link.closest("li").classList.add("underline_current"):
+      link.closest("li").classList.add("underline_current");
     }
   })
 });
