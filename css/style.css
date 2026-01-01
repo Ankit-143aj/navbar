@@ -100,7 +100,7 @@
   background-color:orange;
 }
 .navbar .logo{
-  width:50%;
+  width:80%;
 }
 
 .navbar .logo a{
@@ -110,7 +110,7 @@
 }
  
  .navbar .menu{
-   width:0%;
+   width:20%;
  }
 
  .menu .menubar{
@@ -119,7 +119,7 @@
  }
 
  .menu .mobilebar{
-    width:20%;
+    width:100%;
     height:100%;
     background-color:blue;
   }
