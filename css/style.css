@@ -115,7 +115,8 @@
 
  .menu .menubar{
    width:0;
-   height:0;
+   height:0
+  ;
  }
 
  .menu .mobilebar{
@@ -152,6 +153,10 @@
   border-radius:2px;
   box-shadow:0 7px 0 white,0 -7px 0 white;
   z-index:100;
+ }
+
+ .navbar .menu .menubar ul{
+  display:none;
  }
 }
 
