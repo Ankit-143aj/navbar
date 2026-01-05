@@ -34,7 +34,6 @@
                       Menu.classList.toggle("mobile-open");
                     });
        }
-
       
       // sabse pehle --> menu items nikalna padega
       const menuList = document.querySelectorAll(".menu .menubar ul li");
