@@ -32,7 +32,7 @@ fetch("navbar.html")
             Mobilebar.appendChild(dv);
     
     
-            dv.addEventListner("click",function(e){
+            dv.addEventListener("click",function(e){
               e.stopPropagation();
               Menu.classList.toggle("mobile-open");
             });
