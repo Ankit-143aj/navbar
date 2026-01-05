@@ -155,9 +155,60 @@
   z-index:100;
  }
 
+ .navbar .menu.mobile-open .menubar ul {
+    display: flex;
+    background: grey;
+    position: absolute;
+    top:5%;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    flex-direction: column;
+  }
+
  .navbar .menu .menubar ul{
   display:none;
+  height:auto;
+  width:100%;
  }
+
+  .navbar .menu .menubar ul li {
+    padding: 5% 0;
+    width:100%;
+    justify-content: center;
+  }
+
+ .navbar .menu .menubar ul li a{
+    font-size: 1rem;
+    text-color: white;
+  }
+
+ .navbar .menu .menubar ul li .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translateX(0);
+    width: 100%;
+    background-color: pink;
+    display: none;
+  }
+
+   .menu .menubar ul li .submenu li a {
+    font-size: 1.5rem;
+    color: green;
+  }
+
+  .navbar .menu .menubar ul li.open-submenu > .submenu {
+    display: block;
+  }
+
+  .submenu-toggle {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 6px;
+    cursor: pointer;
+  }
 }
 
 
