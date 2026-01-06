@@ -225,13 +225,13 @@ form label{
  color:red;
 }
 form input{
- border:1px solid black;
+ border:1px solid black underline;
 }
 form button{
  padding:10px 5px;
  background-color:red;
  border:none;
- border-radius:20px;
+ border-radius:5px;
  box-shadow:0 0 7px gray;
  color:white;
 }
