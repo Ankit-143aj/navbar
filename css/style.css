@@ -212,10 +212,16 @@
 }
 
 form{
- width:60vw;
- height:60vh;
- padding:10px;
- background-color:red;
+ width:50vw;
+ padding:50px;
+ background-color:mintcream;
+ line-height: 3;
+}
+form h2{
+ color:orange;
+}
+form label{
+ color:orange;
 }
 
 
