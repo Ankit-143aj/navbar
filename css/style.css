@@ -216,6 +216,7 @@ form{
  padding:50px;
  background-color:mintcream;
  line-height: 3;
+ text-align: center;
 }
 form h2{
  color:orange;
@@ -226,7 +227,11 @@ form label{
 form input{
  border:none;
 }
-
+form button{
+ padding:5px;
+ background-color:red;
+ color:white;
+}
 
 
 
