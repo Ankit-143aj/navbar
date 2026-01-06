@@ -231,6 +231,7 @@ form button{
  padding:10px 5px;
  background-color:red;
  border:none;
+ border-radius:20px;
  box-shadow:0 0 7px gray;
  color:white;
 }
