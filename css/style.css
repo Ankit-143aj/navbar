@@ -215,6 +215,7 @@ form{
  width:60vw;
  height:60vh;
  justify-content:center;
+ align-items:center;
  background-color:red;
 }
 
