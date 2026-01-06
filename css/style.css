@@ -219,10 +219,10 @@ form{
  text-align: center;
 }
 form h2{
- color:orange;
+ color:red;
 }
 form label{
- color:orange;
+ color:red;
 }
 form input{
  border:1px solid black;
