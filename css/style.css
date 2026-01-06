@@ -223,6 +223,9 @@ form h2{
 form label{
  color:orange;
 }
+form input{
+ border:none;
+}
 
 
 
