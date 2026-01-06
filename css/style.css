@@ -211,6 +211,13 @@
   }
 }
 
+form{
+ width:60vw;
+ height:60vh;
+ justify-content:center;
+ background-color:red;
+}
+
 
 
 
