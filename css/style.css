@@ -225,7 +225,7 @@ form label{
  color:orange;
 }
 form input{
- border:none;
+ border:1px solid black;
 }
 form button{
  padding:5px;
