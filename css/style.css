@@ -228,8 +228,10 @@ form input{
  border:1px solid black;
 }
 form button{
- padding:5px;
+ padding:10px 5px;
  background-color:red;
+ border:none;
+ box-shadow:0 0 7px gray;
  color:white;
 }
 
