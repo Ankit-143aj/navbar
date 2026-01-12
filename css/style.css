@@ -269,12 +269,12 @@
 }
 
 
-/* .input-box input:focus ~ label,
+.input-box input:focus ~ label,
 .input-box input:valid ~ label {
     top: -10px;
     font-size: 12px;
     color: #2575fc;
-} */
+}
 
 .input-box input:focus {
     border-bottom-color: #2575fc;
