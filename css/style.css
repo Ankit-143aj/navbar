@@ -213,7 +213,12 @@
 
 
 /*------------------ form css----------------- */
-
+.form{
+ width:100%;
+ height:100vh;
+ display:flex;
+ justify-content:center;
+}
 .form-container {
     background: #fff;
     padding: 30px;
