@@ -244,12 +244,13 @@
 .form-container h2 {
     text-align: center;
     margin-bottom: 20px;
+ font-size:2vw;
 }
 
 
 .input-box {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
 }
 
 .input-box input {
@@ -258,7 +259,7 @@
     border: none;
     border-bottom: 2px solid #ccc;
     outline: none;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .input-box label {
@@ -289,9 +290,9 @@ button {
     background: #2575fc;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.5vw;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1vw;
     transition: 0.4s;
 }
 
