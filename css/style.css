@@ -223,10 +223,10 @@
 
 .form-container {
     background: #fff;
-    padding: 30px;
+    padding: 1.8vw;
     width: 30vw;
-    border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+    border-radius: 0.5vw;
+    box-shadow: 0 1vw 1.5vw rgba(0,0,0,0.3);
     animation: slideIn 1s ease;
 }
 
@@ -243,7 +243,7 @@
 
 .form-container h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
  font-size:4vw;
 }
 
@@ -255,16 +255,16 @@
 
 .input-box input {
     width: 100%;
-    padding: 10px;
+    padding: 0.5vw;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 0.15vw solid #ccc;
     outline: none;
     font-size: 1.5vw;
 }
 
 .input-box label {
     position: absolute;
-    top: 10px;
+    top: 0.5vw;
     left: 0;
     color: #999;
     transition: 0.3s;
@@ -275,7 +275,7 @@
 
 .input-box input:focus ~ label,
 .input-box input:valid ~ label {
-    top: -10px;
+    top: -0.5vw;
     font-size: 1.5vw;
     color: #2575fc;
 }
@@ -287,7 +287,7 @@
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 0.5vw;
     background: #2575fc;
     color: white;
     border: none;
