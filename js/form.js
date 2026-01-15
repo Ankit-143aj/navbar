@@ -9,3 +9,4 @@ if (supabaseClient){
 else{
   console.log("Database not created");
 }
+ 
