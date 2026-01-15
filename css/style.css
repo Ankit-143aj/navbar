@@ -275,7 +275,7 @@
 
 .input-box input:focus ~ label,
 .input-box input:valid ~ label {
-    top: -0.9vw;
+    top: -1vw;
     font-size: 1.5vw;
     color: #2575fc;
 }
